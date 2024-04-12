@@ -1,10 +1,9 @@
 from environement import engine
 import numpy as np
-from keras.saving import load_model
 import matplotlib.pyplot as plt
 
 from environement.environement import Environement
-from wrappers import *
+from environement.wrappers import *
 
 def strat(obs):
     goal = obs["next_checkpoint"] - obs["p"]
