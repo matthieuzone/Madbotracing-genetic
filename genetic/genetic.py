@@ -2,7 +2,7 @@ import tensorflow as tf
 from keras import layers
 import numpy as np
 
-from maps import MAPS
+from environement.maps import MAPS
 import actor
 
 class Batch:

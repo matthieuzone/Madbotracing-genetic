@@ -1,6 +1,6 @@
 from genetic import Batch
-from wrappers import *
-from environement import Environement
+from environement.wrappers import *
+from environement.environement import Environement
 
 env = neurable(progressReward(TimeLimit(Environement(reset_checkpoints = False), 100)))
 

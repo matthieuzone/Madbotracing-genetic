@@ -1,9 +1,9 @@
-import engine
+from environement import engine
 import numpy as np
 from keras.saving import load_model
 import matplotlib.pyplot as plt
 
-from environement import Environement
+from environement.environement import Environement
 from wrappers import *
 
 def strat(obs):
