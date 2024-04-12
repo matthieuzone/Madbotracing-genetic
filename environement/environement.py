@@ -1,9 +1,9 @@
 from engine import *
-import pygame
 import gymnasium as gym
 from gymnasium import spaces
 import pygui
 from maps import MAPS
+import numpy as np
 
 
 N_DT = 1
