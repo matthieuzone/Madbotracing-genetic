@@ -1,4 +1,4 @@
-from genetic import Batch
+from genetic.genetic import Batch
 from environement.wrappers import *
 from environement.environement import Environement
 
